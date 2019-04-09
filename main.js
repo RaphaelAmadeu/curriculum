@@ -299,7 +299,7 @@ var BANDS = [
         listContent: [
             'Web Development: HTML5, CSS3 and JavaScript (ES6)',
             'Angular.js Development (This whole page is built on it)',
-            'Bootstap 4',
+            'Bootstrap 4',
             'Vue.js Development',
             'Agile Practices: Scrum and Kanban',
             'RESTful API Consumption',

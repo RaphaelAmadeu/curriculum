@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "html {\n  scroll-behavior: smooth;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBdUI7QUFDekIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwge1xuICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar\n[headingTitle]=\"headingTitle\"></app-navbar>\n<app-leadspace [name]=\"name\" [(quote)]=\"quote\"></app-leadspace>\n<div>\n  <app-band *ngFor=\"let band of bands\"\n   [anchor]=\"band.anchor\"\n   [heading]=\"band.heading\"\n   [content]=\"band.content\"\n   [img]=\"band.img\"\n   [alt]=\"band.alt\"\n   [alternate]=\"band.alternate\"\n   [list]=\"band.list\"\n   [listContent]=\"band.listContent\"\n   [cta_active]=\"band.cta_active\"\n   [ctas]=\"band.ctas\"\n   >\n </app-band>\n</div>\n"
+module.exports = "<app-navbar\n[headingTitle]=\"headingTitle\"></app-navbar>\n<app-leadspace [name]=\"name\" [(quote)]=\"quote\"></app-leadspace>\n<div>\n  <app-band *ngFor=\"let band of bands\"\n   [anchor]=\"band.anchor\"\n   [heading]=\"band.heading\"\n   [content]=\"band.content\"\n   [img]=\"band.img\"\n   [alt]=\"band.alt\"\n   [alternate]=\"band.alternate\"\n   [list]=\"band.list\"\n   [listContent]=\"band.listContent\"\n   [cta_active]=\"band.cta_active\"\n   [ctas]=\"band.ctas\"\n   >\n </app-band>\n <app-footer></app-footer>\n</div>\n"
 
 /***/ }),
 
@@ -142,7 +142,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".band {\n  margin-top: 14px;\n  padding: 20px;\n}\n\nh3 {\n  font-family: 'Ubuntu', sans-serif;\n  font-weight: 700;\n}\n\n.content {\n  margin-top: 20px;\n  font-family: 'roboto', sans-serif;\n  font-weight: 500;\n  margin-bottom: 60px;\n}\n\npre {\n  white-space: pre-wrap;       /* css-3 */\n  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */\n  white-space: -pre-wrap;      /* Opera 4-6 */\n  white-space: -o-pre-wrap;    /* Opera 7 */\n  word-wrap: break-word;       /* Internet Explorer 5.5+ */\n}\n\ndiv.col-6 {\n  position: relative;\n}\n\n.ctas {\n  position: absolute;\n  bottom: 20px;\n  right: 0;\n  left: 0;\n}\n\n.btn {\n  margin-right: 5px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmFuZC9iYW5kLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7RUFDaEIsYUFBYTtBQUNmOztBQUVBO0VBQ0UsaUNBQWlDO0VBQ2pDLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixpQ0FBaUM7RUFDakMsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtBQUNyQjs7QUFHQTtFQUNFLHFCQUFxQixRQUFRLFVBQVU7RUFDdkMsMEJBQTBCLEdBQUcsd0JBQXdCO0VBQ3JELHNCQUFzQixPQUFPLGNBQWM7RUFDM0Msd0JBQXdCLEtBQUssWUFBWTtFQUN6QyxxQkFBcUIsUUFBUSwyQkFBMkI7QUFDMUQ7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLFFBQVE7RUFDUixPQUFPO0FBQ1Q7O0FBRUE7RUFDRSxpQkFBaUI7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9iYW5kL2JhbmQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iYW5kIHtcbiAgbWFyZ2luLXRvcDogMTRweDtcbiAgcGFkZGluZzogMjBweDtcbn1cblxuaDMge1xuICBmb250LWZhbWlseTogJ1VidW50dScsIHNhbnMtc2VyaWY7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG5cbi5jb250ZW50IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbiAgZm9udC1mYW1pbHk6ICdyb2JvdG8nLCBzYW5zLXNlcmlmO1xuICBmb250LXdlaWdodDogNTAwO1xuICBtYXJnaW4tYm90dG9tOiA2MHB4O1xufVxuXG5cbnByZSB7XG4gIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDsgICAgICAgLyogY3NzLTMgKi9cbiAgd2hpdGUtc3BhY2U6IC1tb3otcHJlLXdyYXA7ICAvKiBNb3ppbGxhLCBzaW5jZSAxOTk5ICovXG4gIHdoaXRlLXNwYWNlOiAtcHJlLXdyYXA7ICAgICAgLyogT3BlcmEgNC02ICovXG4gIHdoaXRlLXNwYWNlOiAtby1wcmUtd3JhcDsgICAgLyogT3BlcmEgNyAqL1xuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7ICAgICAgIC8qIEludGVybmV0IEV4cGxvcmVyIDUuNSsgKi9cbn1cblxuZGl2LmNvbC02IHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4uY3RhcyB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAyMHB4O1xuICByaWdodDogMDtcbiAgbGVmdDogMDtcbn1cblxuLmJ0biB7XG4gIG1hcmdpbi1yaWdodDogNXB4O1xufVxuIl19 */"
+module.exports = ".band {\n  margin-top: 14px;\n  padding: 20px;\n}\n\nh3 {\n  font-family: 'Ubuntu', sans-serif;\n  font-weight: 700;\n}\n\n.content {\n  margin-top: 20px;\n  font-family: 'roboto', sans-serif;\n  font-weight: 500;\n}\n\nli {\n  font-family: 'roboto', sans-serif;\n  font-size: 90%;\n}\n\npre {\n  white-space: pre-wrap;       /* css-3 */\n  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */\n  white-space: -pre-wrap;      /* Opera 4-6 */\n  white-space: -o-pre-wrap;    /* Opera 7 */\n  word-wrap: break-word;       /* Internet Explorer 5.5+ */\n}\n\ndiv.col-6 {\n  display: flex;\n}\n\n.ctas {\n  display: inline-block;\n  align-self: flex-end;\n}\n\n.btn {\n  margin-right: 5px;\n  margin-bottom: 5px;\n}\n\n.show-small {\n  display: none;\n}\n\n@media screen and (max-width: 768px){\n  .hidden-small {\n    display: none;\n  }\n\n  .show-small {\n    display: block;\n  }\n\n  img {\n    margin-bottom: 15px;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmFuZC9iYW5kLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7RUFDaEIsYUFBYTtBQUNmOztBQUVBO0VBQ0UsaUNBQWlDO0VBQ2pDLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixpQ0FBaUM7RUFDakMsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsaUNBQWlDO0VBQ2pDLGNBQWM7QUFDaEI7O0FBR0E7RUFDRSxxQkFBcUIsUUFBUSxVQUFVO0VBQ3ZDLDBCQUEwQixHQUFHLHdCQUF3QjtFQUNyRCxzQkFBc0IsT0FBTyxjQUFjO0VBQzNDLHdCQUF3QixLQUFLLFlBQVk7RUFDekMscUJBQXFCLFFBQVEsMkJBQTJCO0FBQzFEOztBQUVBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxhQUFhO0FBQ2Y7O0FBRUE7RUFDRTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxtQkFBbUI7RUFDckI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2JhbmQvYmFuZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJhbmQge1xuICBtYXJnaW4tdG9wOiAxNHB4O1xuICBwYWRkaW5nOiAyMHB4O1xufVxuXG5oMyB7XG4gIGZvbnQtZmFtaWx5OiAnVWJ1bnR1Jywgc2Fucy1zZXJpZjtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbn1cblxuLmNvbnRlbnQge1xuICBtYXJnaW4tdG9wOiAyMHB4O1xuICBmb250LWZhbWlseTogJ3JvYm90bycsIHNhbnMtc2VyaWY7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG59XG5cbmxpIHtcbiAgZm9udC1mYW1pbHk6ICdyb2JvdG8nLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDkwJTtcbn1cblxuXG5wcmUge1xuICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7ICAgICAgIC8qIGNzcy0zICovXG4gIHdoaXRlLXNwYWNlOiAtbW96LXByZS13cmFwOyAgLyogTW96aWxsYSwgc2luY2UgMTk5OSAqL1xuICB3aGl0ZS1zcGFjZTogLXByZS13cmFwOyAgICAgIC8qIE9wZXJhIDQtNiAqL1xuICB3aGl0ZS1zcGFjZTogLW8tcHJlLXdyYXA7ICAgIC8qIE9wZXJhIDcgKi9cbiAgd29yZC13cmFwOiBicmVhay13b3JkOyAgICAgICAvKiBJbnRlcm5ldCBFeHBsb3JlciA1LjUrICovXG59XG5cbmRpdi5jb2wtNiB7XG4gIGRpc3BsYXk6IGZsZXg7XG59XG5cbi5jdGFzIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBhbGlnbi1zZWxmOiBmbGV4LWVuZDtcbn1cblxuLmJ0biB7XG4gIG1hcmdpbi1yaWdodDogNXB4O1xuICBtYXJnaW4tYm90dG9tOiA1cHg7XG59XG5cbi5zaG93LXNtYWxsIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpe1xuICAuaGlkZGVuLXNtYWxsIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG5cbiAgLnNob3ctc21hbGwge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICB9XG5cbiAgaW1nIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuICB9XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -153,7 +153,7 @@ module.exports = ".band {\n  margin-top: 14px;\n  padding: 20px;\n}\n\nh3 {\n  f
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [id]=\"anchor\" class=\"band bg-light shadow\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div [class.order-2]=\"alternate\" class=\"col-lg-6 col-md-8\">\n        <h3 class=\"text-center h2\">\n          {{ heading }}\n        </h3>\n\n        <div class=\"content\">\n          <pre>{{ content }}</pre>\n          <div *ngIf=\"list\">\n            <ul>\n              <li *ngFor=\"let item of listContent\">\n                {{ item }}\n              </li>\n            </ul>\n          </div>\n        </div>\n\n        <div *ngIf=\"cta_active\" class=\"ctas text-center\">\n          <div>\n            <a *ngFor=\"let cta of ctas\" class=\"btn btn-{{ cta.type }}\" [href]=\"cta.url\" role=\"button\">\n              {{ cta.text }}\n            </a>\n          </div>\n        </div>\n      </div>\n      <div [class.order-1]=\"alternate\" class=\"col-lg-6 col-md-4\">\n        <img class=\"img-fluid shadow\" [src]=\"img\" [alt]=\"alt\">\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div [id]=\"anchor\" class=\"band bg-light shadow\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-6 col-md-4 show-small\">\n        <img class=\"img-fluid shadow\" [src]=\"img\" [alt]=\"alt\">\n      </div>\n\n      <div [class.order-2]=\"alternate\" class=\"col-lg-6 col-md-8\">\n        <h3 class=\"text-center h2\">\n          {{ heading }}\n        </h3>\n\n        <div class=\"content\">\n          <pre>{{ content }}</pre>\n          <div *ngIf=\"list\">\n            <ul>\n              <li *ngFor=\"let item of listContent\">\n                {{ item }}\n              </li>\n            </ul>\n          </div>\n        </div>\n\n        <div *ngIf=\"cta_active\" class=\"ctas\">\n          <div>\n            <a *ngFor=\"let cta of ctas\" class=\"btn btn-{{ cta.type }}\"\n            target=\"{{ cta.external ? '_blank' : '_self' }}\"\n            [href]=\"cta.url\"\n            role=\"button\">\n              {{ cta.text }}\n            </a>\n          </div>\n        </div>\n      </div>\n      <div [class.order-1]=\"alternate\" class=\"col-lg-6 col-md-4 hidden-small\">\n        <img class=\"img-fluid shadow\" [src]=\"img\" [alt]=\"alt\">\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -245,7 +245,7 @@ var BANDS = [
     {
         anchor: "whoami",
         heading: "Who am I",
-        content: "I've been a Web Developer nearly 4 years, being the last 2 years working to IBM Brazil as a Front-End Developer. \n \nI'm a very passionate student that is always looking for something new to learn, focused on Interactive Experiences through Web and Games Development. \n\nGraduated as a Digital Games technologist by FMU, I'm a very Creative persion that is Cooperative and good at Team Work.",
+        content: "Raphael Soares Amadeu, 20, São Paulo - SP, Brazil \n\nI've been a Web Developer for nearly 4 years, being the last 2 years working at IBM Brazil as a Front-End Developer. \n \nI'm a very passionate student that is always looking for something new to learn, focused on Interactive Experiences through Web and Game Development. \n\nGraduated as a Digital Games technologist by FMU, I'm a very Creative person that is Cooperative and good at Team Work. \n\nCurrently, I'm studying System Development and Analysis at FATEC São Paulo.",
         img: "./assets/raphael.png",
         alt: "A picture of me",
         alternate: false,
@@ -254,32 +254,80 @@ var BANDS = [
         cta_active: true,
         ctas: [
             {
-                text: "What can you do?",
+                text: "Do I have any Experience?",
+                url: "#experience",
+                type: "primary",
+                external: false
+            }
+        ]
+    },
+    {
+        anchor: "experience",
+        heading: "Experience",
+        content: "After working on several personal projects, I've been hired to work at IBM in 2017, as a Front-end Developer. \n\nMy work can be seen across many projects, some of them are: \nCloud, Security, Events and Analytics.\n\nOne highlight certainly would be the Web coverage of IBM Cloud Discovery 2018, the biggest IBM event on Brazil to this day.\n\nSkills and Technologies used:",
+        img: "./assets/experience.jpeg",
+        alt: "A picture of me",
+        alternate: true,
+        list: true,
+        listContent: [
+            'HTML 5', 'CSS3', 'JavaScript / ES6', 'Reative Web Frameworks: Angular and Vue', 'Agile Practices: Scrum and Kanban', 'Node.js', 'GitHub Versioning', 'Automated Testing and Web Scrapping using Puppeteer framework'
+        ],
+        cta_active: true,
+        ctas: [
+            {
+                text: "What can I do?",
                 url: "#skills",
-                type: "primary"
+                type: "primary",
+                external: false
+            },
+            {
+                text: "IBM Cloud Discovery Webpage",
+                url: "https://www.ibm.com/events/br/pt/ibmclouddiscovery/",
+                type: "secondary",
+                external: true
             }
         ]
     },
     {
         anchor: "skills",
         heading: "Skills",
-        content: "I've been a Web Developer nearly 4 years, being the last 2 years working to IBM Brazil as a Front-End Developer. \n \nI'm a very passionate student that is always looking for something new to learn, focused on Interactive Experiences through Web and Games Development. \n\nGraduated as a Digital Games technologist by FMU, I'm a very Creative persion that is Cooperative and good at Team Work.",
-        img: "./assets/skills.jpeg",
+        content: "Some of the skills I've obtained are:",
+        img: "./assets/education.png",
         alt: "A picture of me",
-        alternate: true,
+        alternate: false,
         list: true,
         listContent: [
-            'HTML 5', 'CSS3'
+            'Web Development: HTML5, CSS3 and JavaScript (ES6)',
+            'Angular.js Development (This whole page is built on it)',
+            'Vue.js Development',
+            'Agile Practices: Scrum and Kanban',
+            'RESTful API Consumption',
+            'Node.js Development',
+            'Mongo DB',
+            'Express.js',
+            'Automated Web Testing and Scrapping using Puppeteer API',
+            'Git Versioning',
+            'Mail Marketing Development',
+            'Game Development using Unity 3D',
+            'Basic Image manipulation using Photoshop',
+            'Gamification routines'
         ],
         cta_active: true,
         ctas: [
             {
-                text: "Falatu",
-                url: "https://www.orkut.com",
-                type: "secondary"
-            }
+                text: "Visit my LinkedIn",
+                url: "https://www.linkedin.com/in/raphaelsamadeu/",
+                type: "primary",
+                external: true
+            },
+            {
+                text: "Send me an e-mail",
+                url: "mailto:raphael.s.amadeu@gmail.com",
+                type: "secondary",
+                external: true
+            },
         ]
-    }
+    },
 ];
 
 
@@ -292,7 +340,7 @@ var BANDS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "footer {\n  margin-top: 10px;\n  height: 50px;\n  color: white;\n  font-family: 'Ubuntu', sans-serif;\n  padding-top: 10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixZQUFZO0VBQ1osaUNBQWlDO0VBQ2pDLGlCQUFpQjtBQUNuQiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImZvb3RlciB7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG4gIGhlaWdodDogNTBweDtcbiAgY29sb3I6IHdoaXRlO1xuICBmb250LWZhbWlseTogJ1VidW50dScsIHNhbnMtc2VyaWY7XG4gIHBhZGRpbmctdG9wOiAxMHB4O1xufVxuIl19 */"
 
 /***/ }),
 
@@ -303,7 +351,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  footer works!\n</p>\n"
+module.exports = "<footer class=\"bg-dark\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col\">\n        <p>Raphael Amadeu - 2019</p>\n      </div>\n    </div>\n  </div>\n</footer>\n"
 
 /***/ }),
 
@@ -423,7 +471,7 @@ module.exports = ".navbar-brand {\n  font-weight: 600;\n}\n\n/*# sourceMappingUR
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" href=\"#\">{{ headingTitle }}</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a *ngFor=\"let button of buttons\" class=\"nav-item nav-link\" href=\"#{{ button.anchor }}\">\n        {{ button.heading }}\n        <span class=\"sr-only\">(current)</span></a>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" href=\"#\">{{ headingTitle }}</a>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a *ngFor=\"let button of buttons\" class=\"nav-item nav-link\" href=\"#{{ button.anchor }}\">\n        {{ button.heading }}\n      </a>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 

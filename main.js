@@ -270,7 +270,7 @@ var BANDS = [
         alternate: true,
         list: true,
         listContent: [
-            'HTML 5', 'CSS3', 'JavaScript / ES6', 'Reative Web Frameworks: Angular and Vue', 'Agile Practices: Scrum and Kanban', 'Node.js', 'GitHub Versioning', 'Automated Testing and Web Scrapping using Puppeteer framework'
+            'HTML 5', 'CSS3', 'JavaScript / ES6', 'Reactive Web Frameworks: Angular and Vue', 'Agile Practices: Scrum and Kanban', 'Node.js', 'GitHub Versioning', 'Automated Testing and Web Scrapping using Puppeteer framework'
         ],
         cta_active: true,
         ctas: [
